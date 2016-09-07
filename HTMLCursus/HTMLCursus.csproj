@@ -48,11 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HTMLPage1.html" />
+    <Content Include="Projecten\degazet\css\gazet.css" />
     <Content Include="Projecten\degazet\index.html" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Projecten\degazet\css\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
