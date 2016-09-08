@@ -52,6 +52,8 @@
     <Content Include="Projecten\degazet\css\images\check.png" />
     <Content Include="Projecten\degazet\index.html" />
     <Content Include="Projecten\degazet\index2.html" />
+    <Content Include="Taken\eenGenesteLijstCulinair\css\koken.css" />
+    <Content Include="Taken\eenGenesteLijstCulinair\koken.html" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

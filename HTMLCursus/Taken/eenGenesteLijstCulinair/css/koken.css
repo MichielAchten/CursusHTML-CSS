@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+
+
+body
+{
+
+}
+ul{
+    list-style: decimal;
+}
+ol{
+    list-style: square;
+}
