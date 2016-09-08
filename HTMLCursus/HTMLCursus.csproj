@@ -49,7 +49,9 @@
   <ItemGroup>
     <Content Include="HTMLPage1.html" />
     <Content Include="Projecten\degazet\css\gazet.css" />
+    <Content Include="Projecten\degazet\css\images\check.png" />
     <Content Include="Projecten\degazet\index.html" />
+    <Content Include="Projecten\degazet\index2.html" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
