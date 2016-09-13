@@ -50,6 +50,7 @@
     <Content Include="HTMLPage1.html" />
     <Content Include="Projecten\degazet\css\gazet.css" />
     <Content Include="Projecten\degazet\css\images\check.png" />
+    <Content Include="Projecten\degazet\gegevens.html" />
     <Content Include="Projecten\degazet\img\w1.gif" />
     <Content Include="Projecten\degazet\img\w10.gif" />
     <Content Include="Projecten\degazet\img\w11.gif" />
@@ -67,6 +68,7 @@
     <Content Include="Projecten\degazet\weer.html" />
     <Content Include="Taken\eenGenesteLijstCulinair\css\koken.css" />
     <Content Include="Taken\eenGenesteLijstCulinair\koken.html" />
+    <Content Include="Taken\hetVdabOpleidingscentrum\opleidingscentrum.html" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
