@@ -47,6 +47,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\algemeen.css" />
     <Content Include="HTMLPage1.html" />
     <Content Include="Projecten\degazet\css\gazet.css" />
     <Content Include="Projecten\degazet\css\images\check.png" />
@@ -69,6 +70,7 @@
     <Content Include="Taken\eenGenesteLijstCulinair\css\koken.css" />
     <Content Include="Taken\eenGenesteLijstCulinair\koken.html" />
     <Content Include="Taken\hetVdabOpleidingscentrum\opleidingscentrum.html" />
+    <Content Include="testbestand.html" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
