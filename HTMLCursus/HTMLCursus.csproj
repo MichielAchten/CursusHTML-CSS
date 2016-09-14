@@ -71,6 +71,7 @@
     <Content Include="Taken\eenGenesteLijstCulinair\koken.html" />
     <Content Include="Taken\hetVdabOpleidingscentrum\opleidingscentrum.html" />
     <Content Include="testbestand.html" />
+    <Content Include="testbestand2.html" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,13 +1,15 @@
 ﻿@charset "utf-8";
 
 
-body
-{
-
+body {
 }
-ul{
+
+ul {
     list-style: decimal;
 }
-ol{
+    /*ol{
     list-style: square;
-}
+}*/
+    ul ul ul {
+        list-style: square;
+    }
