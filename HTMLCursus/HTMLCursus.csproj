@@ -51,6 +51,7 @@
     <Content Include="HTMLPage1.html" />
     <Content Include="Projecten\degazet\css\gazet.css" />
     <Content Include="Projecten\degazet\css\images\check.png" />
+    <Content Include="Projecten\degazet\css\images\degazet.png" />
     <Content Include="Projecten\degazet\gegevens.html" />
     <Content Include="Projecten\degazet\img\w1.gif" />
     <Content Include="Projecten\degazet\img\w10.gif" />

@@ -191,11 +191,12 @@ article.toparticle > h2 {
                 display: inline-block;
                 width: 7em;
                 padding: 0.2em;
-                font-size:0.8em;
+                font-size: 0.8em;
                 font-family: italic;
                 color: #499BAB;
-                text-decoration:none;
+                text-decoration: none;
             }
+
                 #topmenu ul li a:hover, #topmenu ul li a:active {
                     color: #005689;
                     text-decoration: none;
@@ -203,27 +204,99 @@ article.toparticle > h2 {
 
 /**** EXTRAMENU ****/
 
-#extramenu{
+#extramenu {
     border-bottom: 1px solid #bebebe;
     height: 1.375em;
 }
+
     #extramenu ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
     }
+
         #extramenu ul li {
             display: inline;
         }
+
             #extramenu ul li a {
                 display: inline-block;
                 font-size: 0.9em;
                 padding: 0.2em;
                 color: #cccccc;
-                text-decoration:none;
+                text-decoration: none;
             }
+
                 #extramenu ul li a:hover, #topmenu ul li a:active {
                     color: #505050;
                     text-decoration: none;
                 }
-                
+
+#hoofdmenu {
+    background: #ededed;
+}
+
+    #hoofdmenu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+
+        #hoofdmenu ul li {
+            float: left;
+        }
+
+            #hoofdmenu ul li a {
+                display: block;
+                padding: 0.375em 0.5em; /*6px 8px*/
+                border-right: 1px solid #b1b1b1;
+                text-decoration: none;
+                letter-spacing: 0.1em;
+                color: #005689;
+            }
+
+                #hoofdmenu ul li a:hover, #hoofdmenu ul li a:active, #hoofdmenu ul li a.actief {
+                    text-decoration: none;
+                    background: #D61D00;
+                    color: white;
+                }
+/*Heet van de naald*/
+#heet {
+    padding: 6px 0;
+}
+
+#heetvandenaald {
+    font-weight: bold;
+    color: #D61D00;
+    padding-right: 1em;
+}
+
+/*Logo image replacement
+    #logo = h1
+*/
+
+#logo a {
+    display: block;
+    width: 346px;
+    height: 77px;
+    margin: 14px 0 20px 0;
+    padding:0;
+    background: transparent url(../css/images/degazet.png) no-repeat;
+    text-indent: -99999px;
+}
+
+/**** BORDERS ****/
+/* default kleur rood */
+.bt8 {
+    border-top: 8px solid #D61D00;
+}
+.bt3 {
+    border-top: 3px solid #D61D00;
+}
+bb8 {
+    border-bottom: 8px solid #D61D00;
+}
+.bb3 {
+    border-bottom: 3px solid #D61D00;
+}
