@@ -48,6 +48,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\algemeen.css" />
+    <Content Include="Float\css\floats.css" />
+    <Content Include="Float\floats.html" />
+    <Content Include="Float\img\anouck.jpg" />
+    <Content Include="Float\img\elise_crombez.jpg" />
+    <Content Include="Float\img\hanne.jpg" />
+    <Content Include="Float\img\hannelore.jpg" />
+    <Content Include="Float\img\jennifer.jpg" />
+    <Content Include="Float\img\jill.jpg" />
+    <Content Include="Float\img\louise.jpg" />
+    <Content Include="Float\img\marie.jpg" />
+    <Content Include="Float\img\rose.jpg" />
     <Content Include="HTMLPage1.html" />
     <Content Include="Projecten\degazet\css\gazet.css" />
     <Content Include="Projecten\degazet\css\images\check.png" />

@@ -190,8 +190,12 @@
             position: relative;
         }*/
 
-        #outer1 {
+
+        /*#outer1 {
             width: 80%;
+            border-style: solid;
+            border-color: red;
+            border-width: 1px;
         }
         .vlot {
             float: left;
@@ -199,24 +203,106 @@
             height: 50px;
             margin: 1em;
             background: yellow;
+            border-style: inherit;
+            border-color: inherit;
+            border-width: inherit;
+            visibility: hidden;
+        }
+
+        .cf:before, .cf:after {
+            content: " ";
+            display: table;
+        }
+        .cf:after {
+            clear: both;
+        }*/
+
+        /*div {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            float: left;
+        }
+            div#overflow1 {
+                overflow: visible;
+            }
+            div#overflow2 {
+                overflow: hidden;
+            }
+            div#overflow3 {
+                overflow: scroll;
+            }
+            div#overflow4 {
+                overflow: auto;
+            }*/
+
+        div#knip {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            background: white url(spriral.png) no-repeat;
+            clip: rect(75px,260px,auto,100px);
         }
     </style>
 </head>
 <body>
-    <div id="outer1">
-        <div class="vlot"> vlotje 1</div>
-        <div class="vlot"> vlotje 2</div>
-        <div class="vlot"> vlotje 3</div>
-        Powder toffee liquorice chupa chups. Marshmallow caramels oat cake. Powder tiramisu
-        lollipop chocolate bar cupcake caramels dragée gingerbread jelly beans. Tiramisu
-        applicake pie jelly-o sesame snaps cookie cheesecake. Tart oat cake biscuit. I love
-        candy canes chupa chups chocolate cake I love. Gummi bears gummies apple pie macaroon.
-        Fruitcake marshmallow gingerbread. Gingerbread jelly beans wafer jelly liquorice I love
-        faworki faworki oat cake. Jujubes applicake donut donut. Cotton candy sugar plum apple
-        pie halvah I love dessert muffin. Applicake jujubes carrot cake brownie lollipop.
-        Liquorice muffin caramels.
-    </div>
+    <div class=""></div>
 
+    <!--<div id="overflow1">
+        Reports that say that something hasnt happened are always
+        interesting to me, because as we know, there are known knowns; there are things we know
+        we know. We also know there are known unknowns; that is to say we know there are some
+        things we do not know. But there are also unknown unknowns - the ones we dont know we
+        dont know
+    </div>
+    <div id="overflow2">
+        Reports that say that something hasnt happened are always
+        interesting to me, because as we know, there are known knowns; there are things we know
+        we know. We also know there are known unknowns; that is to say we know there are some
+        things we do not know. But there are also unknown unknowns - the ones we dont know we
+        dont know
+    </div>
+    <div id="overflow3">
+        Reports that say that something hasnt happened are always
+        interesting to me, because as we know, there are known knowns; there are things we know
+        we know. We also know there are known unknowns; that is to say we know there are some
+        things we do not know. But there are also unknown unknowns - the ones we dont know we
+        dont know
+    </div>
+    <div id="overflow4">
+        Reports that say that something hasnt happened are always
+        interesting to me, because as we know, there are known knowns; there are things we know
+        we know. We also know there are known unknowns; that is to say we know there are some
+        things we do not know. But there are also unknown unknowns - the ones we dont know we
+        dont know
+    </div>-->
+    <!--<ol>
+        <li>een list item</li>
+        <li>onder dit item volgt een item met <code>display:none</code></li>
+        <li style="display:none">een display:none list item</li>
+        <li>onder dit item volgt een item met <code>visibility:hidden</code></li>
+        <li style="visibility:hidden">een hidden list item</li>
+        <li>een list item</li>
+    </ol>-->
+    <!--<div>
+        <h2>Floats</h2>
+        <div id="outer1 cf">
+            <div class="vlot"> vlotje 1</div>
+            <div class="vlot"> vlotje 2</div>
+            <div class="vlot"> vlotje 3</div>
+            Powder toffee liquorice chupa chups. Marshmallow caramels oat cake. Powder tiramisu
+            lollipop chocolate bar cupcake caramels dragée gingerbread jelly beans. Tiramisu
+            applicake pie jelly-o sesame snaps cookie cheesecake. Tart oat cake biscuit. I love
+            candy canes chupa chups chocolate cake I love. Gummi bears gummies apple pie macaroon.
+            Fruitcake marshmallow gingerbread. Gingerbread jelly beans wafer jelly liquorice I love
+            faworki faworki oat cake. Jujubes applicake donut donut. Cotton candy sugar plum apple
+            pie halvah I love dessert muffin. Applicake jujubes carrot cake brownie lollipop.
+            Liquorice muffin caramels.
+        </div>
+    </div>-->
     <!--<section>
         <h2>Normal Flow</h2>
         <div id="outer1">
@@ -226,7 +312,6 @@
         </div>
         <div id="outer2">dit is outer2</div>
     </section>-->
-
     <!--<div class="binnen tekst">tekst tekst tekst tekst tekst tekst tekst tekst</div>
     <div class="binnen volkleur">volkleur volkleur volkleur volkleur volkleur</div>
     <div class="binnen tekst">tekst tekst tekst tekst tekst tekst tekst tekst</div>
@@ -240,7 +325,6 @@
         <h2>margin-collapse tussen parent en child</h2>
         <p>Biscuit candy marzipan sweet roll cotton candy lollipop. Jujubes liquorice sweet soufflé sweet carrot cake marzipan gummies ice cream. </p>
     </div>-->
-
     <!--<ul id="menu" class="center">
         <li><a href="home.html">home</a></li>
         <li><a href="wat.html">wat</a></li>
@@ -248,16 +332,14 @@
         <li><a href="about.html">about</a></li>
     </ul>
     <h2>margin collapse</h2>
-    <p>Deze alinea heeft een pop-margin van 20px, de h2 erboven heeft een margin-bottom van 25px, 
+    <p>Deze alinea heeft een pop-margin van 20px, de h2 erboven heeft een margin-bottom van 25px,
     dan verwacht je een totale ruimte tussen de twee van 45px. Dit is niet zo: er is enkel 25px ruimte.</p>-->
-
     <!--<ul id="menu">
         <li class="actief"><a href="#">home</a></li>
         <li><a href="#">what</a></li>
         <li><a href="#">contact</a></li>
         <li><a href="#">about</a></li>
     </ul>-->
-
     <!--<ol>
         <li>een eerste item</li>
         <li>een tweede item</li>
@@ -279,7 +361,6 @@
         <li>een vijfde item</li>
         <li>een laatste item</li>
     </ol>-->
-
     <!--<section>
         <h1>Een <em>dikke</em> kop</h1>
         <p>dit is normale tekst <small>dit is kleiner</small></p>
